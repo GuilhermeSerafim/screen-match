@@ -26,9 +26,12 @@ public class Main {
         //Assim como a classe br.com.alura.screenmatch.modelos.Filme, a String também é uma classe e tem os seus metodos
         System.out.println(meuFilme.getNome().toUpperCase());
 
-        //Perceba que não colocamos nada em serie mais so por colocar o extends, ja herdamos os atributos e comportamentos daquela classe
+        //Só de colocar o extends, já herdamos os atributos e metodos do titulo na serie
         Serie onePiece = new Serie();
         onePiece.setNome("Melhor anime de todos");
-        System.out.println(onePiece.getNome());
+        onePiece.setAnoDeLancamento(2000);
+        onePiece.exibeFichaTecnica();
+        onePiece.setTemporadas(12);
+        onePiece.setEpisodiosPorTemporada(100);
     }
 }

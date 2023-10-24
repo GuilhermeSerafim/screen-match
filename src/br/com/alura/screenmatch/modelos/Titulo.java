@@ -15,7 +15,7 @@ public class Titulo {
     //Quando uma função está dentro de uma classe, nomeamos como metodo (comportamento daquela classe)
     //void - apenas faz, não retorna nada
     public void exibeFichaTecnica() {
-        System.out.println("Nome do filme: " + nome);
+        System.out.println("Nome: " + nome);
         System.out.println("Ano de lancaçamento: " + anoDeLancamento);
     }
 
