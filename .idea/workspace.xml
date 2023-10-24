@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a1eff83d-e31f-4922-9806-26e102bfd13e" name="Changes" comment="Aprendendo sobre modificadores de acesso">
+    <list default="true" id="a1eff83d-e31f-4922-9806-26e102bfd13e" name="Changes" comment="Usando o setter">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/alura/screenmatch/modelos/Filme.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/screenmatch/modelos/Filme.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -87,7 +90,23 @@
       <option name="project" value="LOCAL" />
       <updated>1698163178401</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Entendendo para que serve os metodos setters e usando ele no projeto">
+      <option name="closed" value="true" />
+      <created>1698163930591</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1698163930591</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Usando o setter">
+      <option name="closed" value="true" />
+      <created>1698164034246</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1698164034246</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -96,6 +115,8 @@
     <MESSAGE value="Criando metodo que retorna" />
     <MESSAGE value="Aprendendo sobre classes da comunidade, oracle e como utilizar elas" />
     <MESSAGE value="Aprendendo sobre modificadores de acesso" />
-    <option name="LAST_COMMIT_MESSAGE" value="Aprendendo sobre modificadores de acesso" />
+    <MESSAGE value="Entendendo para que serve os metodos setters e usando ele no projeto" />
+    <MESSAGE value="Usando o setter" />
+    <option name="LAST_COMMIT_MESSAGE" value="Usando o setter" />
   </component>
 </project>

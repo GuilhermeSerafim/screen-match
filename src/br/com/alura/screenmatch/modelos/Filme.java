@@ -34,6 +34,36 @@ public class Filme {
         return totalDeAvaliacoes;
     }
 
+    //Getters e Setters
+    public String getNome() {
+        return nome;
+    }
+
+    public int getAnoDeLancamento() {
+        return anoDeLancamento;
+    }
+
+    public boolean isIncluidoNoPlano() {
+        return incluidoNoPlano;
+    }
+
+    //Nos setters podemos colocar validações
+    public void setAnoDeLancamento(int anoDeLancamento) {
+        if (anoDeLancamento > 1800 && anoDeLancamento < 2023) {
+            this.anoDeLancamento = anoDeLancamento;
+        } else {
+            this.anoDeLancamento = 7;
+        }
+    }
+
+    public void setIncluidoNoPlano(boolean incluidoNoPlano) {
+        this.incluidoNoPlano = incluidoNoPlano;
+    }
+
+    public void setDuracaoEmMinutos(int duracaoEmMinutos) {
+        this.duracaoEmMinutos = duracaoEmMinutos;
+    }
+
     //O this é usado aqui para pegar o contexto da variavel local
     public void setNome(String nome) {
         this.nome = nome;
@@ -42,6 +72,4 @@ public class Filme {
 //    public void setNome(String n) {
 //        nome = n;
 //    } nome = variavel local | n = parametro a ser passado e inserido na variavel local
-
-
 }
