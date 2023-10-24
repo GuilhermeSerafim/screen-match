@@ -12,6 +12,7 @@ public class Main {
         meuFilme.setNome("O poderoso chefão");
         meuFilme.setAnoDeLancamento(3000);
         meuFilme.setDuracaoEmMinutos(180);
+        System.out.println("Duração do filme: " + meuFilme.getDuracaoEmMinutos());
         //Comportamento da classe
         meuFilme.exibeFichaTecnica();
         meuFilme.avalia(8);
@@ -33,5 +34,7 @@ public class Main {
         onePiece.exibeFichaTecnica();
         onePiece.setTemporadas(12);
         onePiece.setEpisodiosPorTemporada(100);
+        onePiece.setMinutosPorEpisodio(30);
+        System.out.println("Duração para maratonar One Piece: " + onePiece.getDuracaoEmMinutos());
     }
 }

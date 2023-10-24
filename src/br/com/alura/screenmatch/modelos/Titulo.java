@@ -48,6 +48,10 @@ public class Titulo {
         return incluidoNoPlano;
     }
 
+    public int getDuracaoEmMinutos() {
+        return duracaoEmMinutos;
+    }
+
     //Nos setters podemos colocar validações
     public void setAnoDeLancamento(int anoDeLancamento) {
         //Validação simples (para entender o conceito)

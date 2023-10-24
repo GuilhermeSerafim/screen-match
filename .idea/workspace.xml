@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a1eff83d-e31f-4922-9806-26e102bfd13e" name="Changes" comment="Entendendo o conceito de herança e como usar">
+    <list default="true" id="a1eff83d-e31f-4922-9806-26e102bfd13e" name="Changes" comment="Criando atributos, getters e setters para a serie">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/alura/screenmatch/modelos/Serie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/screenmatch/modelos/Serie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura/screenmatch/modelos/Titulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/screenmatch/modelos/Titulo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +122,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698167221291</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Criando atributos, getters e setters para a serie">
+      <option name="closed" value="true" />
+      <created>1698167663475</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1698167663475</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -133,6 +143,7 @@
     <MESSAGE value="Usando o setter" />
     <MESSAGE value="Finalizando a parte de encapsulamento" />
     <MESSAGE value="Entendendo o conceito de herança e como usar" />
-    <option name="LAST_COMMIT_MESSAGE" value="Entendendo o conceito de herança e como usar" />
+    <MESSAGE value="Criando atributos, getters e setters para a serie" />
+    <option name="LAST_COMMIT_MESSAGE" value="Criando atributos, getters e setters para a serie" />
   </component>
 </project>
