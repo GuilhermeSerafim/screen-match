@@ -18,4 +18,8 @@ public class Filme {
         somaDasAvaliacoes += nota;
         totalDeAvaliacoes++;
     }
+
+    double pegaMedia() {
+        return somaDasAvaliacoes / totalDeAvaliacoes;
+    }
 }
