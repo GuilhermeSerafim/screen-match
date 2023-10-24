@@ -14,8 +14,13 @@ public class Main {
         meuFilme.avalia(8);
         meuFilme.avalia(10);
         meuFilme.avalia(10);
-        System.out.println(meuFilme.somaDasAvaliacoes);
-        System.out.println(meuFilme.totalDeAvaliacoes);
-        System.out.println(meuFilme.pegaMedia());
+        System.out.println("Total de avaliações: " + meuFilme.getTotalDeAvaliacoes());
+        //System.out.println(meuFilme.pegaMedia());
+        //ou
+        double media = meuFilme.pegaMedia();
+        System.out.println(media);
+
+        //Assim como a classe Filme, a String também é uma classe e tem os seus metodos
+        System.out.println(meuFilme.nome.toUpperCase());
     }
 }
