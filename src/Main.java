@@ -9,8 +9,12 @@ public class Main {
         meuFilme.nome = "O poderoso chefão";
         meuFilme.anoDeLancamento = 1970;
         meuFilme.duracaoEmMinutos = 180;
-
-        System.out.println(meuFilme); //Filme@e9e54c2
-        System.out.println(meuFilme.anoDeLancamento); //1970
+        //Comportamento da classe
+        meuFilme.exibeFichaTecnica();
+        meuFilme.avalia(8);
+        meuFilme.avalia(10);
+        meuFilme.avalia(10);
+        System.out.println(meuFilme.somaDasAvaliacoes);
+        System.out.println(meuFilme.totalDeAvaliacoes);
     }
 }
