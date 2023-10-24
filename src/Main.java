@@ -1,3 +1,5 @@
+import br.com.alura.screenmatch.modelos.Filme;
+
 public class Main {
     public static void main(String[] args) {
         //Tipo referencia
@@ -20,7 +22,7 @@ public class Main {
         double media = meuFilme.pegaMedia();
         System.out.println(media);
 
-        //Assim como a classe Filme, a String também é uma classe e tem os seus metodos
+        //Assim como a classe br.com.alura.screenmatch.modelos.Filme, a String também é uma classe e tem os seus metodos
         System.out.println(meuFilme.nome.toUpperCase());
     }
 }
