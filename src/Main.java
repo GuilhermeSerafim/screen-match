@@ -1,3 +1,4 @@
+import br.com.alura.screenmatch.calculos.CalculadoraDeTempo;
 import br.com.alura.screenmatch.modelos.Filme;
 import br.com.alura.screenmatch.modelos.Serie;
 
@@ -36,5 +37,19 @@ public class Main {
         onePiece.setEpisodiosPorTemporada(100);
         onePiece.setMinutosPorEpisodio(30);
         System.out.println("Duração para maratonar One Piece: " + onePiece.getDuracaoEmMinutos());
+
+        Filme outroFilme = new Filme();
+        //Passar os valores para o objeto
+        outroFilme.setNome("Avatar");
+        outroFilme.setAnoDeLancamento(2023);
+        outroFilme.setDuracaoEmMinutos(200);
+
+        CalculadoraDeTempo calculadora = new CalculadoraDeTempo();
+        calculadora.inclui(meuFilme);
+        calculadora.inclui(outroFilme);
+        calculadora.inclui(onePiece);
+        System.out.println("Tempo a ser dedicado para ver tudo: " + calculadora.getTempoTotal() + " minutos");
+
+
     }
 }
