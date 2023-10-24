@@ -1,4 +1,5 @@
 import br.com.alura.screenmatch.modelos.Filme;
+import br.com.alura.screenmatch.modelos.Serie;
 
 public class Main {
     public static void main(String[] args) {
@@ -24,5 +25,10 @@ public class Main {
 
         //Assim como a classe br.com.alura.screenmatch.modelos.Filme, a String também é uma classe e tem os seus metodos
         System.out.println(meuFilme.getNome().toUpperCase());
+
+        //Perceba que não colocamos nada em serie mais so por colocar o extends, ja herdamos os atributos e comportamentos daquela classe
+        Serie onePiece = new Serie();
+        onePiece.setNome("Melhor anime de todos");
+        System.out.println(onePiece.getNome());
     }
 }
