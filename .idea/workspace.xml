@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a1eff83d-e31f-4922-9806-26e102bfd13e" name="Changes" comment="Aprendendo sobre classes da comunidade, oracle e como utilizar elas">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Filme.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/screenmatch/modelos/Filme.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    <list default="true" id="a1eff83d-e31f-4922-9806-26e102bfd13e" name="Changes" comment="Aprendendo sobre modificadores de acesso">
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura/screenmatch/modelos/Filme.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/screenmatch/modelos/Filme.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +79,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698162534431</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Aprendendo sobre modificadores de acesso">
+      <option name="closed" value="true" />
+      <created>1698163178401</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1698163178401</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -89,6 +95,7 @@
     <MESSAGE value="Criando 2 comportamentos da classe Filme (metodos)" />
     <MESSAGE value="Criando metodo que retorna" />
     <MESSAGE value="Aprendendo sobre classes da comunidade, oracle e como utilizar elas" />
-    <option name="LAST_COMMIT_MESSAGE" value="Aprendendo sobre classes da comunidade, oracle e como utilizar elas" />
+    <MESSAGE value="Aprendendo sobre modificadores de acesso" />
+    <option name="LAST_COMMIT_MESSAGE" value="Aprendendo sobre modificadores de acesso" />
   </component>
 </project>
