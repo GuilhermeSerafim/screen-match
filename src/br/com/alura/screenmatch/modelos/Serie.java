@@ -40,7 +40,7 @@ public class Serie extends Titulo implements Classificavel {
         this.minutosPorEpisodio = minutosPorEpisodio;
     }
 
-    //Sobscrita
+    //Sobscrita de uma herança
     //Mesmo metodo, comportamento diferente
     @Override
     public int getDuracaoEmMinutos() {
