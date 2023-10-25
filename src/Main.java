@@ -1,4 +1,6 @@
 import br.com.alura.screenmatch.calculos.CalculadoraDeTempo;
+import br.com.alura.screenmatch.calculos.FiltroRecomendacao;
+import br.com.alura.screenmatch.modelos.Episodio;
 import br.com.alura.screenmatch.modelos.Filme;
 import br.com.alura.screenmatch.modelos.Serie;
 
@@ -16,7 +18,12 @@ public class Main {
         System.out.println("Duração do filme: " + meuFilme.getDuracaoEmMinutos());
         //Comportamento da classe
         meuFilme.exibeFichaTecnica();
-        meuFilme.avalia(8);
+        meuFilme.avalia(2);
+        meuFilme.avalia(10);
+        meuFilme.avalia(10);
+        meuFilme.avalia(10);
+        meuFilme.avalia(10);
+        meuFilme.avalia(10);
         meuFilme.avalia(10);
         meuFilme.avalia(10);
         System.out.println("Total de avaliações: " + meuFilme.getTotalDeAvaliacoes());
@@ -53,7 +60,24 @@ public class Main {
         calculadora.inclui(outroFilme);
         calculadora.inclui(onePiece);
         System.out.println("Tempo a ser dedicado para ver tudo: " + calculadora.getTempoTotal() + " minutos");
+        System.out.println("*************");
 
+        FiltroRecomendacao filtro = new FiltroRecomendacao();
+
+        System.out.println("Avaliação do: " + meuFilme.getNome());
+        filtro.filtra(meuFilme);
+        System.out.println("************");
+
+        Episodio episodio = new Episodio();
+        episodio.setNumero(1);
+        //Aqui criamos uma referencia de um objeto para o outro
+        //O Episodio vai usar o setters dele para inserir o onePiece que é uma variavel referencial a Serie
+        //Ou seja, inserimos um objeto atraves do setSerie do episodio
+        episodio.setSerie(onePiece);
+        episodio.setNome("Se inicia uma jornada");
+        episodio.setTotalVisualizacoes(300);
+        System.out.println("Avaliação do episodio " + episodio.getNumero() + ": " + episodio.getNome());
+        filtro.filtra(episodio);
 
     }
 }
