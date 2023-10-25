@@ -10,4 +10,20 @@ public class Musicas extends Audio implements Classificavel {
     public int getRecomendavel() {
         return getTotalDeCurtidas();
     }
+
+    public String getEstiloMusical() {
+        return estiloMusical;
+    }
+
+    public void setEstiloMusical(String estiloMusical) {
+        this.estiloMusical = estiloMusical;
+    }
+
+    public String getArtista() {
+        return artista;
+    }
+
+    public void setArtista(String artista) {
+        this.artista = artista;
+    }
 }

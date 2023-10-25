@@ -13,4 +13,20 @@ public class Podcast extends Audio implements Classificavel {
     public int getRecomendavel() {
         return getTotalDeReproducoes();
     }
+
+    public String getEntrevistado() {
+        return entrevistado;
+    }
+
+    public void setEntrevistado(String entrevistado) {
+        this.entrevistado = entrevistado;
+    }
+
+    public String getTema() {
+        return tema;
+    }
+
+    public void setTema(String tema) {
+        this.tema = tema;
+    }
 }

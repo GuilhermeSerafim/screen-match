@@ -1,5 +1,6 @@
 import br.com.alura.joymusic.calculos.FiltroRecomendacao;
 import br.com.alura.joymusic.modelo.Audio;
+import br.com.alura.joymusic.modelo.Musicas;
 import br.com.alura.joymusic.modelo.Podcast;
 import br.com.alura.screenmatch.calculos.CalculadoraDeTempo;
 import br.com.alura.screenmatch.modelos.Episodio;
@@ -80,18 +81,19 @@ public class Main {
 //        episodio.setTotalVisualizacoes(90);
 //        System.out.println("Status do episodio " + episodio.getNumero() + ": " + episodio.getNome());
 //        filtro.filtra(episodio);
-        ///////////////////////////////////////////////////////////////////////////
-        //Joymusic
+//        System.out.println("///////////////////////////////////////////////////////////////////////////");
+
         System.out.println("Challenger JoyMusic");
         Podcast serjaoFoguete = new Podcast();
         serjaoFoguete.setTitulo("Matéria Escura");
+        serjaoFoguete.setEntrevistado("Serjão");
+        serjaoFoguete.setTema("Astronomia");
         serjaoFoguete.setDuracaoEmMinutos(160);
         serjaoFoguete.reproduzir(true);
         serjaoFoguete.reproduzir(true);
         serjaoFoguete.reproduzir(true);
         serjaoFoguete.reproduzir(true);
         serjaoFoguete.reproduzir(true);
-        //A classificação é de acordo com as curtidas
         serjaoFoguete.curtir(true);
         serjaoFoguete.curtir(true);
         serjaoFoguete.curtir(true);
@@ -99,6 +101,25 @@ public class Main {
         serjaoFoguete.exibaFichaTecnica();
         FiltroRecomendacao filtroAudio = new FiltroRecomendacao();
         filtroAudio.filtra(serjaoFoguete);
+
+        System.out.println("//////////");
+
+        Musicas bad = new Musicas();
+        bad.setArtista("Michael Jackson");
+        bad.setEstiloMusical("Pop");
+        bad.setTitulo("Michael Jackson - Bad (Shortened Version)");
+        bad.setDuracaoEmMinutos(5);
+        bad.reproduzir(true);
+        bad.reproduzir(true);
+        bad.reproduzir(true);
+        bad.reproduzir(true);
+        bad.curtir(true);
+        bad.curtir(true);
+        bad.curtir(true);
+        bad.curtir(true);
+        bad.curtir(true);
+        bad.exibaFichaTecnica();
+        filtroAudio.filtra(bad);
 
 
 
