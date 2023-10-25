@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a1eff83d-e31f-4922-9806-26e102bfd13e" name="Changes" comment="Usando a interface como variavel de referencia, para podermos reutilizar a logica do metodo filtra para diferentes objetos">
+    <list default="true" id="a1eff83d-e31f-4922-9806-26e102bfd13e" name="Changes" comment="Refatorando comentarios, deixando mais sucinto e explicativo partes do código main">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura/screenmatch/calculos/FiltroRecomendacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/screenmatch/calculos/FiltroRecomendacao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/alura/screenmatch/modelos/Episodio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/screenmatch/modelos/Episodio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/alura/screenmatch/modelos/Serie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/screenmatch/modelos/Serie.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,7 +162,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698241818575</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Refatorando comentarios, deixando mais sucinto e explicativo partes do código main">
+      <option name="closed" value="true" />
+      <created>1698242298836</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1698242298836</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -178,6 +188,7 @@
     <MESSAGE value="Aplicando conceito do polimorfismo no projeto e criando CalculadoraDeTempo para ver titulos" />
     <MESSAGE value="Entendendo o conceito, e como as interfaces funcionam" />
     <MESSAGE value="Usando a interface como variavel de referencia, para podermos reutilizar a logica do metodo filtra para diferentes objetos" />
-    <option name="LAST_COMMIT_MESSAGE" value="Usando a interface como variavel de referencia, para podermos reutilizar a logica do metodo filtra para diferentes objetos" />
+    <MESSAGE value="Refatorando comentarios, deixando mais sucinto e explicativo partes do código main" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refatorando comentarios, deixando mais sucinto e explicativo partes do código main" />
   </component>
 </project>

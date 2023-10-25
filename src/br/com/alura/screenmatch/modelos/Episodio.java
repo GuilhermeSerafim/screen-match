@@ -6,6 +6,7 @@ public class Episodio implements Classificavel {
     private String nome;
     private int numero;
     private Serie serie;
+    private int totalVisualizacoes;
 
     public int getTotalVisualizacoes() {
         return totalVisualizacoes;
@@ -15,7 +16,7 @@ public class Episodio implements Classificavel {
         this.totalVisualizacoes = totalVisualizacoes;
     }
 
-    private int totalVisualizacoes;
+
 
     public String getNome() {
         return nome;
@@ -43,6 +44,7 @@ public class Episodio implements Classificavel {
 
     @Override //Lógica de classificação diferentes das outras classes (polimorfismo)
     public int getClassificacao() {
+        //Eu uso o totalVisualizacoes diretamente, pois estou dentro da classe
         if(totalVisualizacoes > 100) {
             return 4;
         } else {

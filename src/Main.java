@@ -75,7 +75,7 @@ public class Main {
         //Ou seja, inserimos um objeto atraves do setSerie do episodio
         episodio.setSerie(onePiece);
         episodio.setNome("Se inicia uma jornada");
-        episodio.setTotalVisualizacoes(300);
+        episodio.setTotalVisualizacoes(90);
         System.out.println("Status do episodio " + episodio.getNumero() + ": " + episodio.getNome());
         filtro.filtra(episodio);
 
