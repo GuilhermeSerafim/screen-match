@@ -55,7 +55,7 @@ public class Titulo {
     //Nos setters podemos colocar validações
     public void setAnoDeLancamento(int anoDeLancamento) {
         //Validação simples (para entender o conceito)
-        if (anoDeLancamento > 1800 && anoDeLancamento < 2023) {
+        if (anoDeLancamento > 1800 && anoDeLancamento <= 2023) {
             this.anoDeLancamento = anoDeLancamento;
         } else {
             this.anoDeLancamento = 7;

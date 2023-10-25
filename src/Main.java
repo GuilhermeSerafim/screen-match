@@ -27,6 +27,7 @@ public class Main {
 
         //Assim como a classe br.com.alura.screenmatch.modelos.Filme, a String também é uma classe e tem os seus metodos
         System.out.println(meuFilme.getNome().toUpperCase());
+        System.out.println("*************");
 
         //Só de colocar o extends, já herdamos os atributos e metodos do titulo na serie
         Serie onePiece = new Serie();
@@ -37,12 +38,15 @@ public class Main {
         onePiece.setEpisodiosPorTemporada(100);
         onePiece.setMinutosPorEpisodio(30);
         System.out.println("Duração para maratonar One Piece: " + onePiece.getDuracaoEmMinutos());
+        System.out.println("************");
 
         Filme outroFilme = new Filme();
         //Passar os valores para o objeto
         outroFilme.setNome("Avatar");
         outroFilme.setAnoDeLancamento(2023);
         outroFilme.setDuracaoEmMinutos(200);
+        outroFilme.exibeFichaTecnica();
+        System.out.println("************");
 
         CalculadoraDeTempo calculadora = new CalculadoraDeTempo();
         calculadora.inclui(meuFilme);
