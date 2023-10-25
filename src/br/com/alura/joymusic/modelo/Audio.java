@@ -6,17 +6,11 @@ public class Audio {
     private int totalDeReproducoes;
     private int totalDeCurtidas;
 
-    public String getTitulo() {
-        return titulo;
-    }
-
     public void setTitulo(String titulo) {
         this.titulo = titulo;
     }
 
-    public int getDuracaoEmMinutos() {
-        return duracaoEmMinutos;
-    }
+
 
     public void setDuracaoEmMinutos(int duracaoEmMinutos) {
         this.duracaoEmMinutos = duracaoEmMinutos;

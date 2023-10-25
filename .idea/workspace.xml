@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a1eff83d-e31f-4922-9806-26e102bfd13e" name="Changes" comment="Finalizando">
+    <list default="true" id="a1eff83d-e31f-4922-9806-26e102bfd13e" name="Changes" comment="Usando classe Musicas">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/alura/joymusic/modelo/Musicas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/joymusic/modelo/Musicas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/alura/joymusic/modelo/Podcast.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/joymusic/modelo/Podcast.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura/joymusic/modelo/Audio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/joymusic/modelo/Audio.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -210,7 +208,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698253397800</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Usando classe Musicas">
+      <option name="closed" value="true" />
+      <created>1698254726935</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1698254726935</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -232,6 +238,7 @@
     <MESSAGE value="Finalizando projeto" />
     <MESSAGE value="Challenger concluído!" />
     <MESSAGE value="Finalizando" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finalizando" />
+    <MESSAGE value="Usando classe Musicas" />
+    <option name="LAST_COMMIT_MESSAGE" value="Usando classe Musicas" />
   </component>
 </project>
