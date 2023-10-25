@@ -41,7 +41,7 @@ public class Episodio implements Classificavel {
         this.serie = serie;
     }
 
-    @Override
+    @Override //Lógica de classificação diferentes das outras classes (polimorfismo)
     public int getClassificacao() {
         if(totalVisualizacoes > 100) {
             return 4;

@@ -64,7 +64,7 @@ public class Main {
 
         FiltroRecomendacao filtro = new FiltroRecomendacao();
 
-        System.out.println("Avaliação do: " + meuFilme.getNome());
+        System.out.println("Status do: " + meuFilme.getNome());
         filtro.filtra(meuFilme);
         System.out.println("************");
 
@@ -76,7 +76,7 @@ public class Main {
         episodio.setSerie(onePiece);
         episodio.setNome("Se inicia uma jornada");
         episodio.setTotalVisualizacoes(300);
-        System.out.println("Avaliação do episodio " + episodio.getNumero() + ": " + episodio.getNome());
+        System.out.println("Status do episodio " + episodio.getNumero() + ": " + episodio.getNome());
         filtro.filtra(episodio);
 
     }
